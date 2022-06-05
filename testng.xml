@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/MySoft/JAVA/jetbrains/src/main/resources">
+    <classes>
+        <class name="tests.homePageTests.clickToChooseYourToolTest">
+            <parameter name="homePageUrl" value="https://www.jetbrains.com/"></parameter>
+            <parameter name="productName" value="IntelliJ IDEA Ultimate"></parameter>
+            <parameter name="productPrice" value="$499.00"></parameter>
+        </class>
+    </classes>
+
+    </test>
+</suite>
