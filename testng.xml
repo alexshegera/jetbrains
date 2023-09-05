@@ -3,10 +3,9 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="D:/MySoft/JAVA/jetbrains/src/main/resources">
     <classes>
-        <class name="tests.homePageTests.clickToChooseYourToolTest">
-            <parameter name="homePageUrl" value="https://www.jetbrains.com/"></parameter>
-            <parameter name="productName" value="IntelliJ IDEA Ultimate"></parameter>
-            <parameter name="productPrice" value="$499.00"></parameter>
+        <class name="tests.homePageTests.StartPageTests">
+            <parameter name="homePageUrl" value="https://www.pets.kruts.net"></parameter>
+            <parameter name="productName" value="The Pets"></parameter>
         </class>
     </classes>
 
